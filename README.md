@@ -18,3 +18,18 @@ View your app in AI Studio: https://ai.studio/apps/793b6c0a-44b5-4dbc-91f5-7f0a0
 2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
 3. Run the app:
    `npm run dev`
+   
+Após isso, abra o navegador em:
+
+http://localhost:5173
+
+💡 A porta pode variar dependendo da sua configuração do Vite.
+
+🗂 Estrutura do Projeto
+react_dashboard/
+├── src/                 # Código‑fonte front‑end
+├── public/              # Arquivos públicos
+├── .env.example         # Variáveis de ambiente exemplo
+├── vite.config.ts       # Configuração do Vite
+├── package.json         # Pacotes e scripts
+└── README.md            # Esta documentação
