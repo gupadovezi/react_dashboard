@@ -1,24 +1,47 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# React Dashboard
 
-# Run and deploy your AI Studio app
+Um dashboard interativo construído com **React** e configurado com **Vite** para desenvolvimento rápido e moderno. Este projeto serve como base para criar interfaces de painel com visualização de dados, componentes reutilizáveis e estrutura escalável.
 
-This contains everything you need to run your app locally.
+## 🚀 Features
 
-View your app in AI Studio: https://ai.studio/apps/793b6c0a-44b5-4dbc-91f5-7f0a0ed9b538
+- Painel interativo com componentes React
+- Configuração com Vite para desenvolvimento rápido
+- Base para integrar APIs e dashboards reais
+- Estrutura escalável para adicionar novos módulos facilmente
 
-## Run Locally
+## 🧩 Tecnologias
 
-**Prerequisites:**  Node.js
+Este projeto foi desenvolvido com:
 
+- ⚛️ React — biblioteca JavaScript para interfaces de usuário
+- 🛠️ Vite — ferramenta de build moderna
+- 📦 npm — gerenciador de pacotes
+- 💡 TypeScript — tipagem estática (se aplicável)
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
-   
+## 🔧 Pré‑requisitos
+
+Antes de começar, você precisa ter instalado:
+
+- 📌 Node.js (versão 14+)
+- 📌 npm (versão 6+)
+
+## 🚀 Instalação
+
+Siga estes passos para rodar o projeto localmente:
+
+```bash
+# Clone o repositório
+git clone https://github.com/gupadovezi/react_dashboard.git
+
+# Acesse a pasta do projeto
+cd react_dashboard
+
+# Instale as dependências
+npm install
+
+# Inicie o servidor de desenvolvimento
+npm run dev
+
 Após isso, abra o navegador em:
 
 http://localhost:5173
